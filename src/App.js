@@ -22,7 +22,7 @@ function App() {
       share all of your stories in one go. Available to Embed Embed Tweets,
       Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and
       more. Home Stories Features Pricing Get an invite Copyright 2019. All
-      Rights Reserved
+      Rights Reserved Copyright 2019. All Rights Reserved
     </div>
   )
 }
