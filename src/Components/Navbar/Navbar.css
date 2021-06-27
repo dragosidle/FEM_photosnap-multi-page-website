@@ -14,3 +14,7 @@ ul li {
   cursor: pointer;
   color: gray;
 }
+
+ul li:hover {
+  color: black;
+}
