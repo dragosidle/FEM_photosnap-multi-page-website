@@ -6,6 +6,7 @@ nav {
   width: 100%;
   background-color: white;
   padding: 0 1.5rem;
+  user-select: none;
 }
 
 ul li {
@@ -13,11 +14,11 @@ ul li {
   margin: 0 10px;
   list-style: none;
   cursor: pointer;
-  color: gray;
+  color: black;
 }
 
-ul li:hover {
-  color: black;
+ul li:active {
+  opacity: 30%;
 }
 
 .logo {
@@ -27,6 +28,17 @@ ul li:hover {
 
 button {
   text-transform: uppercase;
+  background-color: black;
+  padding: 1em 2em;
+  color: white;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:active {
+  background-color: #dfdfdf;
+  color: black;
 }
 
 @media (max-width: 760px) {
@@ -41,5 +53,11 @@ button {
 @media (min-width: 761px) {
   .menu-icon {
     display: none;
+  }
+}
+
+@media (hover: hover) {
+  ul li:hover {
+    opacity: 30%;
   }
 }
