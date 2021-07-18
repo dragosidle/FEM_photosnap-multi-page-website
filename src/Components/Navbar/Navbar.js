@@ -5,7 +5,7 @@ import menuIcon from './menu.svg'
 import closeIcon from './close.svg'
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false)
+  const [menu, setMenu] = useState(true)
 
   return (
     <nav>
@@ -16,7 +16,11 @@ const Navbar = () => {
         <li>Pricing</li>
       </ul>
       <button>get an invite</button>
-      {menu ? <img src={menuIcon} /> : <img src={closeIcon} />}
+      <img
+        src={menu ? menuIcon : closeIcon}
+        onClick={() => setMenu(!menu)}
+        alt='icon'
+      />
     </nav>
   )
 }
