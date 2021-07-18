@@ -17,6 +17,7 @@ const Navbar = () => {
       </ul>
       <button>get an invite</button>
       <img
+        className='menu-icon'
         src={menu ? menuIcon : closeIcon}
         onClick={() => setMenu(!menu)}
         alt='icon'
