@@ -5,7 +5,6 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
-      <Navbar />
       Stories Features Pricing Get an invite Create and share your photo Stories
       Photosnap is a platform for photographers and visual storytellers. We make
       it easy to share photos, tell stories and connect with others. Beautiful

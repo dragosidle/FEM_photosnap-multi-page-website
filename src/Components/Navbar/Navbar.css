@@ -26,6 +26,14 @@ ul li:active {
   height: 16px;
 }
 
+.nav-button {
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   text-transform: uppercase;
   background-color: black;
@@ -51,7 +59,7 @@ button:active {
 }
 
 @media (min-width: 761px) {
-  .menu-icon {
+  .nav-button {
     display: none;
   }
 }

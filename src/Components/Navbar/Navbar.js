@@ -6,7 +6,6 @@ import closeIcon from './close.svg'
 
 const Navbar = () => {
   const [menu, setMenu] = useState(true)
-
   return (
     <nav>
       <img src={logo} alt='logo' />
@@ -16,12 +15,9 @@ const Navbar = () => {
         <li>Pricing</li>
       </ul>
       <button>get an invite</button>
-      <img
-        className='menu-icon'
-        src={menu ? menuIcon : closeIcon}
-        onClick={() => setMenu(!menu)}
-        alt='icon'
-      />
+      <div onClick={() => setMenu(!menu)} className='nav-button'>
+        <img src={menu ? menuIcon : closeIcon} alt='' />
+      </div>
     </nav>
   )
 }
