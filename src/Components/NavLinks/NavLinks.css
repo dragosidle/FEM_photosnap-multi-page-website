@@ -1,8 +1,7 @@
 ul li {
   text-transform: uppercase;
+  letter-spacing: 2px;
   font-weight: bold;
-  display: inline;
-  margin: 0 10px;
   list-style: none;
   cursor: pointer;
   color: black;
@@ -12,8 +11,25 @@ ul li:active {
   opacity: 30%;
 }
 
+.nav-desktop li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.nav-mobile li {
+  display: block;
+  margin: 25px 0;
+  text-align: center;
+}
+
 @media (max-width: 760px) {
-  ul {
+  .nav-desktop {
     display: none;
+  }
+}
+
+@media (hover: hover) {
+  .menu ul li:hover {
+    opacity: 30%;
   }
 }

@@ -1,5 +1,8 @@
 nav {
+  position: absolute;
+  top: 0;
   display: flex;
+  z-index: 2;
   align-items: center;
   justify-content: space-between;
   height: 72px;

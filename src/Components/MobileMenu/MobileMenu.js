@@ -1,17 +1,14 @@
 import './MobileMenu.css'
 // components
 import CtaButton from '../CtaButton/CtaButton'
+import NavLinks from '../NavLinks/NavLinks'
 
 const MobileMenu = () => {
   return (
     <div className='menu'>
-      <ul>
-        <li>stories</li>
-        <li>features</li>
-        <li>pricing</li>
-      </ul>
+      <NavLinks styling={'nav-mobile'} />
       <div className='menu-divider'></div>
-      <CtaButton style={'cta-mobile'} buttonText={'yea boiiiiiii'} />
+      <CtaButton styling={'cta cta--mobile'} buttonText={'get an invite'} />
     </div>
   )
 }

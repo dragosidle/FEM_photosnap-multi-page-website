@@ -10,11 +10,11 @@ const Navbar = (props) => {
   return (
     <nav>
       <Logo />
-      <NavLinks />
+      <NavLinks styling={'nav-desktop'} />
       <div onClick={() => props.openMenu(!props.open)} className='hamburger'>
         <img src={props.open ? closeIcon : menuIcon} alt='' />
       </div>
-      <CtaButton style={'cta-desktop'} buttonText={'get an invite'} />
+      <CtaButton styling={'cta cta--desktop'} buttonText={'get an invite'} />
     </nav>
   )
 }

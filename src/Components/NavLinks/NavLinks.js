@@ -1,8 +1,8 @@
 import './NavLinks.css'
 
-const NavLinks = () => {
+const NavLinks = (props) => {
   return (
-    <ul>
+    <ul className={props.styling}>
       <li>Stories</li>
       <li>Features</li>
       <li>Pricing</li>
