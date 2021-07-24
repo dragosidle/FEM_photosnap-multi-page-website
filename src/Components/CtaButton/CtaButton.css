@@ -1,0 +1,15 @@
+button {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 1em 2em;
+  color: white;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:active {
+  background-color: #dfdfdf;
+  color: black;
+}

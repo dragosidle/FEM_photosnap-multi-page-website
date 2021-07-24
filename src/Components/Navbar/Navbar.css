@@ -10,6 +10,8 @@ nav {
 }
 
 ul li {
+  text-transform: uppercase;
+  font-weight: bold;
   display: inline;
   margin: 0 10px;
   list-style: none;
@@ -22,7 +24,6 @@ ul li:active {
 }
 
 .logo {
-  width: 100%;
   height: 16px;
 }
 
@@ -34,26 +35,32 @@ ul li:active {
   align-items: center;
 }
 
-button {
-  text-transform: uppercase;
-  background-color: black;
-  padding: 1em 2em;
-  color: white;
-  border: none;
-  cursor: pointer;
-  user-select: none;
+.menu {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
-button:active {
-  background-color: #dfdfdf;
-  color: black;
+.menu ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu ul li:active {
+  opacity: 30%;
+}
+
+.menu-divider {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  opacity: 25%;
 }
 
 @media (max-width: 760px) {
   ul {
-    display: none;
-  }
-  button {
     display: none;
   }
 }
@@ -62,10 +69,16 @@ button:active {
   .nav-button {
     display: none;
   }
+  .menu {
+    display: none;
+  }
 }
 
 @media (hover: hover) {
   ul li:hover {
+    opacity: 30%;
+  }
+  .menu ul li:hover {
     opacity: 30%;
   }
 }

@@ -1,10 +1,13 @@
+import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 
 function App() {
+  const [open, setOpen] = useState(false)
+
   return (
     <div className='App'>
-      <Navbar />
+      <Navbar open={open} openMenu={(open) => setOpen(open)} />
       Stories Features Pricing Get an invite Create and share your photo Stories
       Photosnap is a platform for photographers and visual storytellers. We make
       it easy to share photos, tell stories and connect with others. Beautiful
