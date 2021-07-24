@@ -1,4 +1,5 @@
-button {
+.cta-desktop,
+.cta-mobile {
   font-weight: bold;
   text-transform: uppercase;
   background-color: black;
@@ -9,7 +10,22 @@ button {
   user-select: none;
 }
 
-button:active {
-  background-color: #dfdfdf;
-  color: black;
+@media (max-width: 760px) {
+  .cta-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 761px) {
+  .cta-mobile {
+    display: none;
+  }
+}
+
+@media (hover: hover) {
+  .cta-desktop:hover,
+  .cta-mobile:hover {
+    background-color: #dfdfdf;
+    color: black;
+  }
 }

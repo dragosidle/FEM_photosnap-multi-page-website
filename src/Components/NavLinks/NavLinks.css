@@ -1,0 +1,19 @@
+ul li {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline;
+  margin: 0 10px;
+  list-style: none;
+  cursor: pointer;
+  color: black;
+}
+
+ul li:active {
+  opacity: 30%;
+}
+
+@media (max-width: 760px) {
+  ul {
+    display: none;
+  }
+}

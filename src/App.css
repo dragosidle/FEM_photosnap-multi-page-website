@@ -2,6 +2,8 @@
 
 .App {
   font-family: 'DM Sans', sans-serif, Helvetica;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 input,

@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+// components
 import Navbar from './Components/Navbar/Navbar'
+import MobileMenu from './Components/MobileMenu/MobileMenu'
 
 function App() {
   const [open, setOpen] = useState(false)
 
   return (
     <div className='App'>
+      {open ? <MobileMenu /> : null}
       <Navbar open={open} openMenu={(open) => setOpen(open)} />
       Stories Features Pricing Get an invite Create and share your photo Stories
       Photosnap is a platform for photographers and visual storytellers. We make
