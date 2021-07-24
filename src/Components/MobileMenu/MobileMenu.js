@@ -11,7 +11,7 @@ const MobileMenu = () => {
         <li>pricing</li>
       </ul>
       <div className='menu-divider'></div>
-      <CtaButton style={'cta-mobile'} buttonText={'get an invite'} />
+      <CtaButton style={'cta-mobile'} buttonText={'yea boiiiiiii'} />
     </div>
   )
 }
