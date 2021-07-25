@@ -1,19 +1,17 @@
 import './Navbar.css'
-import menuIcon from './menu.svg'
-import closeIcon from './close.svg'
+
 // components
-import NavLinks from '../NavLinks/NavLinks'
 import Logo from '../Logo/Logo'
+import NavLinks from '../NavLinks/NavLinks'
 import CtaButton from '../CtaButton/CtaButton'
+import Hamburger from '../Hamburger/Hamburger'
 
 const Navbar = (props) => {
   return (
     <nav>
       <Logo />
       <NavLinks styling={'nav-desktop'} />
-      <div onClick={() => props.openMenu(!props.open)} className='hamburger'>
-        <img src={props.open ? closeIcon : menuIcon} alt='' />
-      </div>
+      <Hamburger open={props.open} setOpen={props.setOpen} />
       <CtaButton styling={'cta cta--desktop'} buttonText={'get an invite'} />
     </nav>
   )

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+
 import './App.css'
 // components
 import Navbar from './Components/Navbar/Navbar'
@@ -10,7 +11,7 @@ function App() {
   return (
     <div className='App'>
       {open ? <MobileMenu /> : null}
-      <Navbar open={open} openMenu={(open) => setOpen(open)} />
+      <Navbar open={open} setOpen={setOpen} />
       Stories Features Pricing Get an invite Create and share your photo Stories
       Photosnap is a platform for photographers and visual storytellers. We make
       it easy to share photos, tell stories and connect with others. Beautiful

@@ -12,14 +12,6 @@ nav {
   user-select: none;
 }
 
-.hamburger {
-  height: 28px;
-  width: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media (min-width: 761px) {
   nav {
     justify-content: space-around;
