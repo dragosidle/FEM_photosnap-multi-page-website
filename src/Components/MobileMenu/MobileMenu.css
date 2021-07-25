@@ -1,6 +1,5 @@
 .menu {
   position: absolute;
-  top: -250px;
   z-index: 1;
   width: 100%;
   display: flex;
@@ -14,28 +13,29 @@
 
 .menu--enter {
   opacity: 0;
+  top: -250px;
 }
 .menu--enter-active {
   top: 70px;
   opacity: 1;
-  transition: top 400ms, opacity 400ms ease-in-out;
+  transition: top 400ms, opacity 450ms ease-in-out;
 }
 .menu--enter-done {
   top: 70px;
   opacity: 1;
-  transition: opacity 400ms ease-in-out;
 }
 
 .menu--exit {
-  top: 70px;
+  top: -250px;
+  opacity: 0;
+  transition: top 400ms, opacity 150ms ease-in-out;
 }
 .menu--exit-active {
   top: -250px;
-  transition: top 400ms ease-in-out;
+  opacity: 0;
 }
 .menu--exit-done {
-  transition: top 400ms ease-in-out;
-  top: -250px;
+  opacity: 0;
 }
 
 .menu-divider {
