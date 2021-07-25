@@ -1,7 +1,7 @@
 .menu {
   position: absolute;
+  top: -250px;
   z-index: 1;
-  top: 70px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -10,6 +10,32 @@
   background-color: white;
   padding: 0 2rem 2rem 2rem;
   user-select: none;
+}
+
+.menu--enter {
+  opacity: 0;
+}
+.menu--enter-active {
+  top: 70px;
+  opacity: 1;
+  transition: top 400ms, opacity 400ms ease-in-out;
+}
+.menu--enter-done {
+  top: 70px;
+  opacity: 1;
+  transition: opacity 400ms ease-in-out;
+}
+
+.menu--exit {
+  top: 70px;
+}
+.menu--exit-active {
+  top: -250px;
+  transition: top 400ms ease-in-out;
+}
+.menu--exit-done {
+  transition: top 400ms ease-in-out;
+  top: -250px;
 }
 
 .menu-divider {

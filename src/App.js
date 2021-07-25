@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { CSSTransition } from 'react-transition-group'
 
 import './App.css'
 // components
@@ -10,7 +11,13 @@ function App() {
 
   return (
     <div className='App'>
-      {open ? <MobileMenu /> : null}
+      <CSSTransition
+        in={open}
+        timeout={500}
+        unmountOnExit={true}
+        classNames={'menu-'}>
+        <MobileMenu />
+      </CSSTransition>
       <Navbar open={open} setOpen={setOpen} />
       Stories Features Pricing Get an invite Create and share your photo Stories
       Photosnap is a platform for photographers and visual storytellers. We make
