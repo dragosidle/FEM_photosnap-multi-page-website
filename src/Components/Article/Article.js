@@ -5,8 +5,8 @@ const Article = (props) => {
   return (
     <article className='article'>
       <div className='text-side'>
-        {props.title}
-        {props.description}
+        <h1>{props.title}</h1>
+        <p>{props.description}</p>
         <ArticleButton>{props.btn}</ArticleButton>
       </div>
       <div className='image-side'></div>
