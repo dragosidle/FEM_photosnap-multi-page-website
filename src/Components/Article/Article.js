@@ -1,13 +1,13 @@
 import ArticleButton from './ArticleButton'
+import './Article.css'
 
 const Article = (props) => {
   return (
-    <article>
+    <article className='article'>
       <div className='text-side'>
         {props.title}
         {props.description}
-        {props.btn}
-        <ArticleButton />
+        <ArticleButton>{props.btn}</ArticleButton>
       </div>
       <div className='image-side'></div>
     </article>

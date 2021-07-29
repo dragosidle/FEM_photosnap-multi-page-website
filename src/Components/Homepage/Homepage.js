@@ -1,6 +1,6 @@
 import './Homepage.css'
-//components
 
+//components
 import Article from '../Article/Article'
 
 const Homepage = () => {
