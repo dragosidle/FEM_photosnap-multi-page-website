@@ -5,7 +5,7 @@ import './App.css'
 // components
 import Navbar from './Components/Navbar/Navbar'
 import MobileMenu from './Components/MobileMenu/MobileMenu'
-import Homepage from './Components/Homepage/Homepage'
+import Home from './Components/Home/Home'
 
 function App() {
   const [open, setOpen] = useState(false)
@@ -20,7 +20,7 @@ function App() {
         <MobileMenu />
       </CSSTransition>
       <Navbar open={open} setOpen={setOpen} />
-      <Homepage />
+      <Home />
     </div>
   )
 }

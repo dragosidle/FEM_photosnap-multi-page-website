@@ -7,9 +7,11 @@ const Article = (props) => {
       <div className='text-side'>
         <h1>{props.title}</h1>
         <p>{props.description}</p>
-        <ArticleButton>{props.btn}</ArticleButton>
+        <ArticleButton btn={props.btn}></ArticleButton>
       </div>
-      <div className='image-side'></div>
+      <div
+        style={{ backgroundImage: `url(${props.image})` }}
+        className='image-side'></div>
     </article>
   )
 }

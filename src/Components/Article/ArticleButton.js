@@ -1,5 +1,15 @@
+import './Article.css'
+import sprite from './sprite.svg'
+
 const ArticleButton = (props) => {
-  return <button className='article-btn'>{props.btn}</button>
+  return (
+    <div className='article-btn'>
+      <h3>{props.btn}</h3>
+      <svg className='arrow'>
+        <use href={sprite + '#arrow'} />
+      </svg>
+    </div>
+  )
 }
 
 export default ArticleButton
