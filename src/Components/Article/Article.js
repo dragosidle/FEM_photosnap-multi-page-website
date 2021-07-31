@@ -4,7 +4,10 @@ import './Article.css'
 const Article = (props) => {
   return (
     <article className='article'>
-      <div className='text-side'>
+      <div
+        className='text-side'
+        style={{ color: props.font, backgroundColor: props.background }}>
+        {props.colorThing && <div className={props.colorThing}></div>}
         <h1>{props.title}</h1>
         <p>{props.description}</p>
         <ArticleButton btn={props.btn}></ArticleButton>
