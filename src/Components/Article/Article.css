@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 
 .color-thing {
@@ -27,7 +28,7 @@
 
 .text-side h1 {
   font-size: 3rem;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   line-height: 48px;
   font-weight: bold;
   text-transform: uppercase;
@@ -43,7 +44,7 @@
 }
 
 .image-side {
-  min-height: 300px;
+  min-height: 350px;
   flex: 5;
   background-size: cover;
   background-position: center;

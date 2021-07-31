@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 body {
@@ -16,6 +16,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width: 521px) {
+  * {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 761px) {
