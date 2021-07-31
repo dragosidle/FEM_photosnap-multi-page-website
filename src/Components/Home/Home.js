@@ -2,14 +2,14 @@ import './Home.css'
 
 // assets
 import Dimg1 from '../../assets/home/desktop/create-and-share.jpg'
-import Dimg2 from '../../assets/home/desktop/beautiful-stories.jpg'
-import Dimg3 from '../../assets/home/desktop/designed-for-everyone.jpg'
-import Mimg1 from '../../assets/home/mobile/create-and-share.jpg'
-import Mimg2 from '../../assets/home/mobile/beautiful-stories.jpg'
-import Mimg3 from '../../assets/home/mobile/designed-for-everyone.jpg'
-import Timg1 from '../../assets/home/tablet/create-and-share.jpg'
-import Timg2 from '../../assets/home/tablet/beautiful-stories.jpg'
-import Timg3 from '../../assets/home/tablet/designed-for-everyone.jpg'
+// import Dimg2 from '../../assets/home/desktop/beautiful-stories.jpg'
+// import Dimg3 from '../../assets/home/desktop/designed-for-everyone.jpg'
+// import Mimg1 from '../../assets/home/mobile/create-and-share.jpg'
+// import Mimg2 from '../../assets/home/mobile/beautiful-stories.jpg'
+// import Mimg3 from '../../assets/home/mobile/designed-for-everyone.jpg'
+// import Timg1 from '../../assets/home/tablet/create-and-share.jpg'
+// import Timg2 from '../../assets/home/tablet/beautiful-stories.jpg'
+// import Timg3 from '../../assets/home/tablet/designed-for-everyone.jpg'
 
 //components
 import Article from '../Article/Article'
