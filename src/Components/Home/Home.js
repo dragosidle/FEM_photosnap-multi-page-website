@@ -2,8 +2,8 @@ import './Home.css'
 
 // assets
 import Dimg1 from '../../assets/home/desktop/create-and-share.jpg'
-// import Dimg2 from '../../assets/home/desktop/beautiful-stories.jpg'
-// import Dimg3 from '../../assets/home/desktop/designed-for-everyone.jpg'
+import Dimg2 from '../../assets/home/desktop/beautiful-stories.jpg'
+import Dimg3 from '../../assets/home/desktop/designed-for-everyone.jpg'
 // import Mimg1 from '../../assets/home/mobile/create-and-share.jpg'
 // import Mimg2 from '../../assets/home/mobile/beautiful-stories.jpg'
 // import Mimg3 from '../../assets/home/mobile/designed-for-everyone.jpg'
@@ -33,6 +33,7 @@ const Home = () => {
           'We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.'
         }
         btn={'view the stories'}
+        image={Dimg2}
         background={'white'}
         font={'black'}></Article>
       <Article
@@ -41,6 +42,7 @@ const Home = () => {
           'Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it.'
         }
         btn={'view the stories'}
+        image={Dimg3}
         background={'white'}
         font={'black'}></Article>
     </main>

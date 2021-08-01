@@ -13,7 +13,10 @@ const Article = (props) => {
         <ArticleButton btn={props.btn}></ArticleButton>
       </div>
       <div
-        style={{ backgroundImage: `url(${props.image})` }}
+        style={{
+          backgroundImage: `url(${props.image})`,
+          flexDirection: 'row-reverse',
+        }}
         className='image-side'></div>
     </article>
   )
