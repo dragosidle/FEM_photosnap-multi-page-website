@@ -1,7 +1,7 @@
-.article {
+.article,
+.article-flip {
   display: flex;
-  flex-direction: column;
-  position: relative;
+  flex-direction: column-reverse;
   overflow: hidden;
 }
 
@@ -24,6 +24,7 @@
   flex: 3;
   align-items: center;
   padding: 8rem 5vw;
+  position: relative;
 }
 
 .text-side h1 {
@@ -63,7 +64,6 @@
   font-size: 12px;
   letter-spacing: 2px;
   font-weight: bold;
-  color: white;
   margin: 0 20px 0 0;
   user-select: none;
 }
@@ -73,11 +73,25 @@
   height: 16px;
 }
 
+.white {
+  stroke: white;
+}
+
+.black {
+  stroke: black;
+}
+
 @media (min-width: 761px) {
   .article {
     flex-direction: row;
     height: 650px;
   }
+
+  .article-flip {
+    flex-direction: row-reverse;
+    height: 650px;
+  }
+
   .text-side {
     min-width: 500px;
   }

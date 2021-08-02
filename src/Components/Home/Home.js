@@ -26,7 +26,9 @@ const Home = () => {
         image={Dimg1}
         colorThing={'color-thing'}
         background={'black'}
-        font={'white'}></Article>
+        font={'white'}
+        article={'article'}
+        arrow={'white'}></Article>
       <Article
         title={'Beautiful stories every time'}
         description={
@@ -35,7 +37,9 @@ const Home = () => {
         btn={'view the stories'}
         image={Dimg2}
         background={'white'}
-        font={'black'}></Article>
+        font={'black'}
+        article={'article-flip'}
+        arrow={'black'}></Article>
       <Article
         title={'designed for everyone'}
         description={
@@ -44,7 +48,9 @@ const Home = () => {
         btn={'view the stories'}
         image={Dimg3}
         background={'white'}
-        font={'black'}></Article>
+        font={'black'}
+        article={'article'}
+        arrow={'black'}></Article>
     </main>
   )
 }
