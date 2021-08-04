@@ -11,8 +11,14 @@ import Dimg3 from '../../assets/home/desktop/designed-for-everyone.jpg'
 // import Timg2 from '../../assets/home/tablet/beautiful-stories.jpg'
 // import Timg3 from '../../assets/home/tablet/designed-for-everyone.jpg'
 
+import RowImg1 from '../../assets/stories/desktop/mountains.jpg'
+import RowImg2 from '../../assets/stories/desktop/cityscapes.jpg'
+import RowImg3 from '../../assets/stories/desktop/18-days-voyage.jpg'
+import RowImg4 from '../../assets/stories/desktop/architecturals.jpg'
+
 //components
 import Article from '../Article/Article'
+import RowPics from '../RowPics/RowPics'
 
 const Home = () => {
   return (
@@ -51,6 +57,20 @@ const Home = () => {
         font={'black'}
         article={'article'}
         arrow={'black'}></Article>
+      <RowPics
+        RowImg1={RowImg1}
+        Title1={'The Mountains'}
+        Author1={'John Appleseed'}
+        RowImg2={RowImg2}
+        Title2={'Sunset Cityscapes'}
+        Author2={'Benjamin Cruz'}
+        RowImg3={RowImg3}
+        Title3={'18 Days Voyage'}
+        Author3={'Alexei Borodin'}
+        RowImg4={RowImg4}
+        Title4={'Architecturals'}
+        Author4={'Samantha Brooke'}
+      />
     </main>
   )
 }

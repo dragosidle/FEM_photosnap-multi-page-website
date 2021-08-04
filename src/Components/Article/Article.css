@@ -59,6 +59,10 @@
   align-items: center;
 }
 
+.article-btn :hover {
+  text-decoration: underline;
+}
+
 .article-btn h3 {
   text-transform: uppercase;
   font-size: 12px;
