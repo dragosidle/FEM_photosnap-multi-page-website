@@ -1,28 +1,44 @@
 .story-card {
+  cursor: pointer;
   flex: 1;
   height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   background-position: center;
   background-size: cover;
   color: white;
+  position: relative;
+  bottom: 40px;
 }
 
-.title-description {
+.bottom-stripe {
+  height: 10px;
+  background-color: blue;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   width: 100%;
-  padding: 0 2rem;
+  height: 100%;
+  padding: 2rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.7455357142857143) 0%,
+    rgba(0, 0, 0, 0.75) 15%,
+    rgba(255, 255, 255, 0) 75%
+  );
 }
 
 .title-description h4 {
   user-select: none;
-  font-weight: 300;
+  font-weight: 100;
   margin: 8px 0;
 }
 
 .title-description h3 {
   user-select: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 

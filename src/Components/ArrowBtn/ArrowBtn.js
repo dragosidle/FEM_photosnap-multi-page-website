@@ -1,9 +1,13 @@
-import './Article.css'
+// import { useState } from 'react'
+
+import './ArrowBtn.css'
 import sprite from './sprite.svg'
 
-const ArticleButton = (props) => {
+const ArrowBtn = (props) => {
+  //   const [hover, setHover] = useState(false)
+
   return (
-    <div className='article-btn'>
+    <div className={props.btnType}>
       <h3 style={{ color: props.font }}>{props.btn}</h3>
       <svg className={`arrow ${props.arrow}`}>
         <use href={sprite + '#arrow'} />
@@ -12,4 +16,4 @@ const ArticleButton = (props) => {
   )
 }
 
-export default ArticleButton
+export default ArrowBtn

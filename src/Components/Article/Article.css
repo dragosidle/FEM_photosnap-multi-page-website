@@ -51,40 +51,6 @@
   background-position: center;
 }
 
-.article-btn {
-  cursor: pointer;
-  height: 25px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.article-btn :hover {
-  text-decoration: underline;
-}
-
-.article-btn h3 {
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 2px;
-  font-weight: bold;
-  margin: 0 20px 0 0;
-  user-select: none;
-}
-
-.arrow {
-  width: 42px;
-  height: 16px;
-}
-
-.white {
-  stroke: white;
-}
-
-.black {
-  stroke: black;
-}
-
 @media (min-width: 761px) {
   .article {
     flex-direction: row;

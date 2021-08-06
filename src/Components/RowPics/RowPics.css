@@ -1,4 +1,5 @@
 .row-pics {
+  max-height: 500px;
   display: flex;
   width: 100%;
 }

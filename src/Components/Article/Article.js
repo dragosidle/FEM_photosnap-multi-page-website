@@ -1,5 +1,7 @@
-import ArticleButton from './ArticleButton'
 import './Article.css'
+
+// components
+import ArrowBtn from '../ArrowBtn/ArrowBtn'
 
 const Article = (props) => {
   return (
@@ -13,10 +15,11 @@ const Article = (props) => {
         {props.colorThing && <div className={props.colorThing}></div>}
         <h1>{props.title}</h1>
         <p>{props.description}</p>
-        <ArticleButton
+        <ArrowBtn
+          btnType={'arrow-btn'}
           arrow={props.arrow}
           font={props.font}
-          btn={props.btn}></ArticleButton>
+          btn={props.btn}></ArrowBtn>
       </div>
       <div
         style={{
