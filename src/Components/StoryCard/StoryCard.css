@@ -5,13 +5,11 @@
   color: white;
   position: relative;
   height: clamp(375px, 100vw, 500px);
-  width: clamp(300px, 50%, 600px);
-  /* flex: 1; */
-}
-
-.bottom-stripe {
-  height: 10px;
-  background-color: blue;
+  /* width: clamp(250px, 75%, 600px); */
+  flex: 1;
+  min-width: 250px;
+  transition: bottom 400ms ease-in-out;
+  bottom: 0;
 }
 
 .wrapper {
@@ -30,15 +28,18 @@
   );
 }
 
-.title-description h4 {
+.title-description {
   user-select: none;
+  pointer-events: none;
+}
+
+.title-description h4 {
   font-weight: 100;
   margin: 8px 0;
   font-size: 1.2rem;
 }
 
 .title-description h3 {
-  user-select: none;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -51,8 +52,30 @@
   margin: 1rem 0;
 }
 
-/* @media (min-width: 459px) {
-  .story-card {
-    width: clamp();
+.bottom-stripe {
+  position: absolute;
+  bottom: 0;
+  height: 6px;
+  opacity: 0;
+  width: 100%;
+  background: rgb(255, 197, 147);
+  background: linear-gradient(
+    5deg,
+    rgba(255, 197, 147, 1) 0%,
+    rgba(188, 113, 152, 1) 35%,
+    rgba(90, 119, 255, 1) 100%
+  );
+  transition: opacity 500ms ease-in-out;
+}
+
+@media (hover: hover) {
+  .story-card:hover {
+    bottom: 20px;
+    transition: bottom 150ms ease-in-out;
   }
-} */
+
+  .story-card:hover .bottom-stripe {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+  }
+}

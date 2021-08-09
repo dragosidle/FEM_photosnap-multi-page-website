@@ -51,7 +51,7 @@
   background-position: center;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 759px) {
   .article {
     flex-direction: row;
     height: 650px;

@@ -24,7 +24,7 @@ code {
   }
 }
 
-@media (min-width: 761px) {
+@media (min-width: 759px) {
   * {
     font-size: 16px;
   }
