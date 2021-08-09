@@ -5,6 +5,13 @@
 }
 
 .split {
+  flex-direction: column;
   display: flex;
   flex: 1;
+}
+
+@media (min-width: 459px) {
+  .split {
+    flex-direction: row;
+  }
 }
