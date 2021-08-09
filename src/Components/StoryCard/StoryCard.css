@@ -1,12 +1,12 @@
 .story-card {
   cursor: pointer;
-  flex: 1;
-  height: 500px;
   background-position: center;
   background-size: cover;
   color: white;
   position: relative;
-  bottom: 40px;
+  height: clamp(375px, 100vw, 500px);
+  width: clamp(300px, 50%, 600px);
+  /* flex: 1; */
 }
 
 .bottom-stripe {
@@ -34,11 +34,12 @@
   user-select: none;
   font-weight: 100;
   margin: 8px 0;
+  font-size: 1.2rem;
 }
 
 .title-description h3 {
   user-select: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -49,3 +50,9 @@
   opacity: 25%;
   margin: 1rem 0;
 }
+
+/* @media (min-width: 459px) {
+  .story-card {
+    width: clamp();
+  }
+} */

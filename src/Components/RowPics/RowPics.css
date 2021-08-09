@@ -1,5 +1,10 @@
 .row-pics {
-  max-height: 500px;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
+}
+
+.split {
+  display: flex;
+  flex: 1;
 }

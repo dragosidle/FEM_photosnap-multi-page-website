@@ -39,7 +39,7 @@
 .text-side p {
   opacity: 60%;
   font-weight: 100;
-  line-height: 25px;
+  line-height: 20px;
   max-width: 40ch;
   margin: 2rem 0 3rem 0;
 }
@@ -64,6 +64,10 @@
 
   .text-side {
     min-width: 500px;
+  }
+
+  .text-side p {
+    line-height: 25px;
   }
   .color-thing {
     left: 0;
