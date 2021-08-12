@@ -19,6 +19,7 @@ import RowImg4 from '../../assets/stories/desktop/architecturals.jpg'
 //components
 import Article from '../Article/Article'
 import RowPics from '../RowPics/RowPics'
+import FeatureSet from '../FeatureSet/FeatureSet'
 
 const Home = () => {
   return (
@@ -70,6 +71,23 @@ const Home = () => {
         RowImg4={RowImg4}
         Title4={'Architecturals'}
         Author4={'Samantha Brooke'}
+      />
+      <FeatureSet
+        icon1={'responsive'}
+        title1={'100% Responsive'}
+        description1={
+          'No matter which device you’re on, our site is fully responsive and stories look beautiful on any screen.'
+        }
+        icon2={'no-limit'}
+        title2={'No Photo Upload Limit'}
+        description2={
+          'Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.'
+        }
+        icon3={'embed'}
+        title3={'Available to embed'}
+        description3={
+          'Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. '
+        }
       />
     </main>
   )
