@@ -68,6 +68,26 @@
   transition: opacity 500ms ease-in-out;
 }
 
+.story-card:active {
+  bottom: 20px;
+  transition: bottom 150ms ease-in-out;
+}
+
+.story-card:active .bottom-stripe {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+
+.story-card:focus {
+  bottom: 20px;
+  transition: bottom 150ms ease-in-out;
+}
+
+.story-card:focus .bottom-stripe {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+
 @media (hover: hover) {
   .story-card:hover {
     bottom: 20px;

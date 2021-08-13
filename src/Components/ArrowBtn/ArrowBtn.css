@@ -13,10 +13,6 @@
   pointer-events: none;
 }
 
-.arrow-btn :hover {
-  text-decoration: underline;
-}
-
 .arrow-btn h3 {
   text-transform: uppercase;
   font-size: 12px;
@@ -38,4 +34,14 @@
 
 .black {
   stroke: black;
+}
+
+.arrow-btn:active {
+  text-decoration: underline;
+}
+
+@media (hover: hover) {
+  .arrow-btn:hover {
+    text-decoration: underline;
+  }
 }
