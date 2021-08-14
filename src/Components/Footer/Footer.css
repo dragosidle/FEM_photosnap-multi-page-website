@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+}
+
+.socials {
+  display: flex;
+}
+
+svg {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}

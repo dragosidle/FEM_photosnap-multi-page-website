@@ -6,6 +6,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import MobileMenu from './Components/MobileMenu/MobileMenu'
 import Home from './Components/Home/Home'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [open, setOpen] = useState(false)
@@ -21,6 +22,7 @@ function App() {
       </CSSTransition>
       <Navbar open={open} setOpen={setOpen} />
       <Home />
+      <Footer />
     </div>
   )
 }
