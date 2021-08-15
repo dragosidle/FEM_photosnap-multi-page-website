@@ -4,14 +4,14 @@ import './Footer.css'
 import sprite from '../sprite.svg'
 
 // components
-import Logo from '../Logo/Logo'
+import SvgLogo from '../../iconComponents/Logo'
 import NavLinks from '../NavLinks/NavLinks'
 import ArrowBtn from '../ArrowBtn/ArrowBtn'
 const Footer = () => {
   return (
     <section className='footer'>
       <div className='footer-split'>
-        <Logo color={'white'} />
+        <SvgLogo color={'white'} />
         <div className='socials'>
           <svg className='social-icon'>
             <use href={sprite + '#facebook'} />
