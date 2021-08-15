@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 
 import './ArrowBtn.css'
-import sprite from './sprite.svg'
+import sprite from '../sprite.svg'
 
 const ArrowBtn = (props) => {
   //   const [hover, setHover] = useState(false)

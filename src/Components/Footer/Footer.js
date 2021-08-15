@@ -14,9 +14,6 @@ const Footer = () => {
         <Logo />
         <div className='socials'>
           <svg>
-            <use href={sprite + '#logo'} />
-          </svg>
-          <svg>
             <use href={sprite + '#facebook'} />
           </svg>
           <svg>
