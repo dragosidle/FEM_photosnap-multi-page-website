@@ -1,33 +1,38 @@
 import './Footer.css'
 
 // assets
-import sprite from '../sprite.svg'
+import SvgFacebook from '../../iconComponents/Facebook'
+import SvgYoutube from '../../iconComponents/Youtube'
+import SvgTwitter from '../../iconComponents/Twitter'
+import SvgPinterest from '../../iconComponents/Pinterest'
+import SvgInstagram from '../../iconComponents/Instagram'
 
 // components
 import SvgLogo from '../../iconComponents/Logo'
 import NavLinks from '../NavLinks/NavLinks'
 import ArrowBtn from '../ArrowBtn/ArrowBtn'
+
 const Footer = () => {
   return (
     <section className='footer'>
       <div className='footer-split'>
         <SvgLogo color={'white'} />
         <div className='socials'>
-          <svg className='social-icon'>
-            <use href={sprite + '#facebook'} />
-          </svg>
-          <svg className='social-icon'>
-            <use href={sprite + '#youtube'} />
-          </svg>
-          <svg className='social-icon'>
-            <use href={sprite + '#twitter'} />
-          </svg>
-          <svg className='social-icon'>
-            <use href={sprite + '#pinterest'} />
-          </svg>
-          <svg className='social-icon'>
-            <use href={sprite + '#instagram'} />
-          </svg>
+          <div className='social-icon'>
+            <SvgFacebook />
+          </div>
+          <div className='social-icon'>
+            <SvgYoutube />
+          </div>
+          <div className='social-icon'>
+            <SvgTwitter />
+          </div>
+          <div className='social-icon'>
+            <SvgPinterest />
+          </div>
+          <div className='social-icon'>
+            <SvgInstagram />
+          </div>
         </div>
       </div>
       <NavLinks footer={true} styling={'footer-desktop'} />

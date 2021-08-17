@@ -4,6 +4,7 @@ ul li {
   font-weight: bold;
   list-style: none;
   cursor: pointer;
+  user-select: none;
 }
 
 ul li:active {
