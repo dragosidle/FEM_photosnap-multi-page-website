@@ -21,6 +21,9 @@ function App() {
         <MobileMenu />
       </CSSTransition>
       <Navbar open={open} setOpen={setOpen} />
+      <div
+        className='overlay'
+        style={{ display: open ? 'block' : 'none' }}></div>
       <Home />
       <Footer />
     </div>

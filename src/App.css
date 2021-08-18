@@ -7,6 +7,15 @@
   position: relative;
 }
 
+.overlay {
+  position: absolute;
+  background-color: black;
+  inset: 0;
+  z-index: 3;
+  opacity: 50%;
+  pointer-events: none;
+}
+
 input,
 select,
 textarea,
