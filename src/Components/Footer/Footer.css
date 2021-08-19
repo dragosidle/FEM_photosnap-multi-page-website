@@ -3,6 +3,8 @@
   flex-direction: column;
   background-color: black;
   padding: 3rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .copyright {

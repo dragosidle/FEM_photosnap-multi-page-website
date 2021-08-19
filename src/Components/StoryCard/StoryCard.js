@@ -12,6 +12,7 @@ const StoryCard = (props) => {
       style={{ backgroundImage: `url(${props.RowImg})` }}>
       <div className='wrapper'>
         <div className='title-description'>
+          <h4>{props.Date}</h4>
           <h3>{props.Title}</h3>
           <h4>by {props.Author}</h4>
           <div className='divider'></div>
