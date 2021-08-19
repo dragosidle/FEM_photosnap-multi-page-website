@@ -21,10 +21,14 @@ function App() {
         <MobileMenu />
       </CSSTransition>
       <Navbar open={open} setOpen={setOpen} />
-      <div
-        className='overlay'
-        style={{ display: open ? 'block' : 'none' }}></div>
-      <Home />
+      <CSSTransition
+        in={open}
+        timeout={500}
+        unmountOnExit={true}
+        classNames={'overlay-'}>
+        <div className='overlay'></div>
+      </CSSTransition>
+      {/* <Home /> */}
       <Footer />
     </div>
   )

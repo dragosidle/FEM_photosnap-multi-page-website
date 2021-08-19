@@ -12,8 +12,21 @@
   background-color: black;
   inset: 0;
   z-index: 3;
-  opacity: 50%;
   pointer-events: none;
+  opacity: 0;
+}
+
+.overlay--enter-active {
+  opacity: 50%;
+  transition: opacity 200ms ease-in-out;
+}
+.overlay--enter-done {
+  opacity: 50%;
+}
+
+.overlay--exit {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
 }
 
 input,
