@@ -2,6 +2,7 @@ import './Stories.css'
 
 // components
 import RowPics from '../RowPics/RowPics'
+import HeroStory from '../HeroStory/HeroStory'
 
 //assets
 import RowImg1 from '../../assets/stories/desktop/mountains.jpg'
@@ -20,10 +21,20 @@ import RowImg13 from '../../assets/stories/desktop/milky-way.jpg'
 import RowImg14 from '../../assets/stories/desktop/dark-forest.jpg'
 import RowImg15 from '../../assets/stories/desktop/somwarpet.jpg'
 import RowImg16 from '../../assets/stories/desktop/land-of-dreams.jpg'
+import HeroImage from '../../assets/stories/desktop/moon-of-appalacia.jpg'
 
 const Stories = () => {
   return (
     <main className='stories-container'>
+      <HeroStory
+        Title={'HAZY FULL MOON OF APPALACHIA'}
+        Date={'March 2nd 2020'}
+        Author={'John Appleseed'}
+        Description={
+          'The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.'
+        }
+        background={HeroImage}
+      />
       <RowPics
         Date1={'April 16th 2020'}
         RowImg1={RowImg1}
