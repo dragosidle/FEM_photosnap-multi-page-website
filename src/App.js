@@ -7,7 +7,8 @@ import Navbar from './Components/Navbar/Navbar'
 import MobileMenu from './Components/MobileMenu/MobileMenu'
 // import Home from './Components/Home/Home'
 import Footer from './Components/Footer/Footer'
-import Stories from './Components/Stories/Stories'
+// import Stories from './Components/Stories/Stories'
+import Features from './Components/Features/Features'
 
 function App() {
   const [open, setOpen] = useState(false)
@@ -30,7 +31,8 @@ function App() {
         <div className='overlay'></div>
       </CSSTransition>
       {/* <Home /> */}
-      <Stories />
+      {/* <Stories /> */}
+      <Features />
       <Footer />
     </div>
   )
