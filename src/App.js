@@ -5,9 +5,9 @@ import './App.css'
 // components
 import Navbar from './Components/Navbar/Navbar'
 import MobileMenu from './Components/MobileMenu/MobileMenu'
-// import Home from './Components/Home/Home'
+import Home from './Components/Home/Home'
 import Footer from './Components/Footer/Footer'
-// import Stories from './Components/Stories/Stories'
+import Stories from './Components/Stories/Stories'
 import Features from './Components/Features/Features'
 
 function App() {

@@ -15,13 +15,12 @@ const Features = () => {
         description={
           'We make sure all of our features are designed to be loved by every aspiring and even professional photograpers who wanted to share their stories.'
         }
-        btn={'get an invite'}
         image={Dimg1}
         colorThing={'color-thing'}
         background={'black'}
         font={'white'}
-        article={'article'}
-        arrow={'white'}></Article>
+        height={'500px'}
+        article={'article'}></Article>
       <FeatureSet
         icon1={'responsive'}
         title1={'100% Responsive'}

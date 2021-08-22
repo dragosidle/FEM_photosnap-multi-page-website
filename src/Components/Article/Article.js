@@ -5,7 +5,9 @@ import ArrowBtn from '../ArrowBtn/ArrowBtn'
 
 const Article = (props) => {
   return (
-    <article className={props.article}>
+    <article
+      className={props.article}
+      style={props.height && { maxHeight: props.height }}>
       <div
         className='text-side'
         style={{
@@ -15,11 +17,13 @@ const Article = (props) => {
         {props.colorThing && <div className={props.colorThing}></div>}
         <h1>{props.title}</h1>
         <p>{props.description}</p>
-        <ArrowBtn
-          btnType={'arrow-btn'}
-          arrow={props.arrow}
-          font={props.font}
-          btn={props.btn}></ArrowBtn>
+        {props.btn && (
+          <ArrowBtn
+            btnType={'arrow-btn'}
+            arrow={props.arrow}
+            font={props.font}
+            btn={props.btn}></ArrowBtn>
+        )}
       </div>
       <div
         style={{

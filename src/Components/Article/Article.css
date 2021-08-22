@@ -22,9 +22,12 @@
 
 .text-side {
   flex: 3;
-  align-items: center;
-  padding: 8rem 5vw;
+  align-items: left;
+  padding: 4rem 8%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .text-side h1 {
