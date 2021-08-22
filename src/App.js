@@ -30,8 +30,8 @@ function App() {
         classNames={'overlay-'}>
         <div className='overlay'></div>
       </CSSTransition>
-      {/* <Home /> */}
-      {/* <Stories /> */}
+      <Home />
+      <Stories />
       <Features />
       <Footer />
     </div>

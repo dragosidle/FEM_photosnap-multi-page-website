@@ -37,21 +37,19 @@ const Features = () => {
         description3={
           'Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. '
         }
-      />
-      <FeatureSet
-        icon1={'custom-domain'}
-        title1={'Custom Domain'}
-        description1={
+        icon4={'custom-domain'}
+        title4={'Custom Domain'}
+        description4={
           'With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!'
         }
-        icon2={'boost-exposure'}
-        title2={'Boost Your Exposure'}
-        description2={
+        icon5={'boost-exposure'}
+        title5={'Boost Your Exposure'}
+        description5={
           'Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list.'
         }
-        icon3={'drag-drop'}
-        title3={'Drag & Drop Image'}
-        description3={
+        icon6={'drag-drop'}
+        title6={'Drag & Drop Image'}
+        description6={
           'Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories.'
         }
       />

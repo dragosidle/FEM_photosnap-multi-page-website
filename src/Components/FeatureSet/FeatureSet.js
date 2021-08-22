@@ -21,6 +21,27 @@ const FeatureSet = (props) => {
         title={props.title3}
         description={props.description3}
       />
+      {props.icon4 && (
+        <Feature
+          icon={props.icon3}
+          title={props.title3}
+          description={props.description3}
+        />
+      )}
+      {props.icon5 && (
+        <Feature
+          icon={props.icon3}
+          title={props.title3}
+          description={props.description3}
+        />
+      )}
+      {props.icon6 && (
+        <Feature
+          icon={props.icon3}
+          title={props.title3}
+          description={props.description3}
+        />
+      )}
     </div>
   )
 }
