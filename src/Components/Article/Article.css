@@ -49,7 +49,7 @@
 }
 
 .image-side {
-  min-height: 350px;
+  min-height: 300px;
   flex: 6;
   background-size: cover;
   background-position: left;

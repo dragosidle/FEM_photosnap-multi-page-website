@@ -1,5 +1,6 @@
 // components
 import Article from '../Article/Article'
+import SwitchBtn from '../SwitchBtn/SwitchBtn'
 
 // assets
 import hero from '../../assets/pricing/desktop/hero.jpg'
@@ -17,6 +18,9 @@ const Pricing = () => {
         background={'black'}
         font={'white'}
         article={'article'}></Article>
+      <div>
+        <SwitchBtn trailing={'Monthly'} leading={'Yearly'} />
+      </div>
     </section>
   )
 }

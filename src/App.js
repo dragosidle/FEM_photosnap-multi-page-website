@@ -13,6 +13,7 @@ import Pricing from './Components/Pricing/Pricing'
 
 function App() {
   const [open, setOpen] = useState(false)
+  const [monthly, setMonthly] = useState(true)
 
   return (
     <div className='App'>
@@ -34,7 +35,7 @@ function App() {
       <Home />
       <Stories />
       <Features />
-      <Pricing />
+      <Pricing monthly={monthly} setMonthly={setMonthly} />
       <Footer />
     </div>
   )
