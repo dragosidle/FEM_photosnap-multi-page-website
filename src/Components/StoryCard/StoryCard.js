@@ -7,23 +7,25 @@ import ArrowBtn from '../ArrowBtn/ArrowBtn'
 
 const StoryCard = (props) => {
   return (
-    <div
-      className='story-card'
-      style={{ backgroundImage: `url(${props.RowImg})` }}>
-      <div className='wrapper'>
-        <div className='title-description'>
-          <h4>{props.Date}</h4>
-          <h3>{props.Title}</h3>
-          <h4>by {props.Author}</h4>
-          <div className='divider'></div>
+    <div className='card-container'>
+      <div
+        className='story-card'
+        style={{ backgroundImage: `url(${props.RowImg})` }}>
+        <div className='wrapper'>
+          <div className='title-description'>
+            <h4>{props.Date}</h4>
+            <h3>{props.Title}</h3>
+            <h4>by {props.Author}</h4>
+            <div className='divider'></div>
+          </div>
+          <ArrowBtn
+            btnType={'arrow-btn long'}
+            arrow={'white'}
+            font={'white'}
+            btn={'read story'}></ArrowBtn>
         </div>
-        <ArrowBtn
-          btnType={'arrow-btn long'}
-          arrow={'white'}
-          font={'white'}
-          btn={'read story'}></ArrowBtn>
+        <div className='bottom-stripe'></div>
       </div>
-      <div className='bottom-stripe'></div>
     </div>
   )
 }
