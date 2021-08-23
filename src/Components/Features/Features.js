@@ -21,7 +21,6 @@ const Features = () => {
         colorThing={'color-thing'}
         background={'black'}
         font={'white'}
-        height={'500px'}
         article={'article'}></Article>
       <FeatureSet
         icon1={'responsive'}

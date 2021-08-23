@@ -50,20 +50,23 @@
 
 .image-side {
   min-height: 350px;
-  flex: 5;
+  flex: 6;
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 
 @media (min-width: 759px) {
   .article {
     flex-direction: row;
-    height: 650px;
+    min-height: 500px;
   }
 
   .article-flip {
     flex-direction: row-reverse;
-    height: 650px;
+  }
+
+  .image-side {
+    background-position: center;
   }
 
   .text-side {

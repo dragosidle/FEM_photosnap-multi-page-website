@@ -9,6 +9,7 @@ import Home from './Components/Home/Home'
 import Footer from './Components/Footer/Footer'
 import Stories from './Components/Stories/Stories'
 import Features from './Components/Features/Features'
+import Pricing from './Components/Pricing/Pricing'
 
 function App() {
   const [open, setOpen] = useState(false)
@@ -33,6 +34,7 @@ function App() {
       <Home />
       <Stories />
       <Features />
+      <Pricing />
       <Footer />
     </div>
   )
