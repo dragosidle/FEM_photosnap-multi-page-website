@@ -2,10 +2,12 @@ import './Features.css'
 
 // assets
 import Dimg1 from '../../assets/features/desktop/hero.jpg'
+import background from '../../assets/shared/desktop/bg-beta.jpg'
 
 // components
 import FeatureSet from '../FeatureSet/FeatureSet'
 import Article from '../Article/Article'
+import StaticBanner from '../StaticBanner/StaticBanner'
 
 const Features = () => {
   return (
@@ -52,6 +54,10 @@ const Features = () => {
         description6={
           'Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories.'
         }
+      />
+      <StaticBanner
+        message={'We’re in beta. Get your invite today!'}
+        background={background}
       />
     </main>
   )
