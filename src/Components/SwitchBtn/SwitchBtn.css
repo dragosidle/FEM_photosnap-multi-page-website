@@ -1,6 +1,7 @@
 .switch-container {
   display: flex;
   align-items: center;
+  user-select: none;
 }
 
 .switch-container h5 {
