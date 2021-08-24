@@ -5,7 +5,7 @@ import SwitchBtn from '../SwitchBtn/SwitchBtn'
 // assets
 import hero from '../../assets/pricing/desktop/hero.jpg'
 
-const Pricing = () => {
+const Pricing = (props) => {
   return (
     <section>
       <Article
@@ -19,7 +19,12 @@ const Pricing = () => {
         font={'white'}
         article={'article'}></Article>
       <div>
-        <SwitchBtn trailing={'Monthly'} leading={'Yearly'} />
+        <SwitchBtn
+          monthly={props.monthly}
+          setMonthly={props.setMonthly}
+          trailing={'Monthly'}
+          leading={'Yearly'}
+        />
       </div>
     </section>
   )
