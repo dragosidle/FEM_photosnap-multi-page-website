@@ -5,6 +5,8 @@
 
 .switch-container h5 {
   font-size: 1rem;
+  margin: 50px;
+  transition: color 300ms;
 }
 
 .switch-background {
@@ -12,19 +14,18 @@
   position: relative;
   width: 64px;
   height: 32px;
-  background-color: #dfdfdf;
   border-radius: 100px;
   margin: 0 2rem;
+  transition: background-color 300ms;
 }
 
 .switch-circle {
   position: absolute;
-  right: 0;
   top: 50%;
   transform: translate(0, -50%);
   width: 24px;
   height: 24px;
   border-radius: 100px;
-  margin: 0 5px;
-  background-color: black;
+  margin: 0 4px;
+  transition: background-color 300ms ease-in, right 100ms ease-in;
 }
