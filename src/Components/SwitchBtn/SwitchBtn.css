@@ -6,8 +6,8 @@
 
 .switch-container h5 {
   font-size: 1rem;
-  margin: 50px;
-  transition: color 300ms;
+  margin: 2rem;
+  transition: opacity 1000ms;
 }
 
 .switch-background {
