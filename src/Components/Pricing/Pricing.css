@@ -1,0 +1,7 @@
+.payment-details {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
