@@ -51,6 +51,10 @@
   .cta--mobile {
     display: none;
   }
+
+  .cta--card {
+    max-width: 270px;
+  }
 }
 
 @media (hover: hover) {
