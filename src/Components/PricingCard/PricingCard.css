@@ -66,11 +66,20 @@
   );
 }
 
-@media (min-width: 710px) {
+@media (min-width: 761px) {
   .color-thing-card {
     left: 0;
     top: 0;
     height: 100%;
     width: 6px;
+  }
+
+  .plan-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pricing-card {
+    width: 700px;
   }
 }
