@@ -6,6 +6,7 @@ import CtaButton from '../CtaButton/CtaButton'
 const PricingCard = (props) => {
   return (
     <div className={props.styling}>
+      {props.colorThing && <div className='color-thing-card'></div>}
       <div className='pricing-card--text'>
         <h3>{props.title}</h3>
         <p>{props.details}</p>
@@ -14,7 +15,7 @@ const PricingCard = (props) => {
         <h3>{props.price}</h3>
         <p>{props.billing}</p>
       </div>
-      <CtaButton />
+      <CtaButton styling={props.btn} buttonText={'pick plan'} />
     </div>
   )
 }

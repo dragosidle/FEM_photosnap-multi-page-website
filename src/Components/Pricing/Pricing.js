@@ -28,15 +28,37 @@ const Pricing = (props) => {
           trailing={'Monthly'}
           leading={'Yearly'}
         />
-        <div className='pricing-cards basic-card'>
+        <div className='pricing-cards'>
           <PricingCard
-            styling={'pricing-card'}
+            styling={'pricing-card basic-card'}
             title={'Basic'}
             details={
               'Includes basic usage of our platform. Recommended for new and aspiring photographers.'
             }
-            price={19.0}
+            price={'$19.00'}
             billing={'per month'}
+            btn={'cta cta--card cta--black'}
+          />
+          <PricingCard
+            colorThing={true}
+            styling={'pricing-card main-card'}
+            title={'Pro'}
+            details={
+              'More advanced features available. Recommended for photography veterans and professionals.'
+            }
+            price={'$39.00'}
+            billing={'per month'}
+            btn={'cta cta--card cta--white'}
+          />
+          <PricingCard
+            styling={'pricing-card basic-card'}
+            title={'Business'}
+            details={
+              'Additional features available such as more detailed metrics. Recommended for business owners.'
+            }
+            price={'$99.00'}
+            billing={'per month'}
+            btn={'cta cta--card cta--black'}
           />
         </div>
       </section>
