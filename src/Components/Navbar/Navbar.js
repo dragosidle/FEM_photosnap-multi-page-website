@@ -12,7 +12,10 @@ const Navbar = (props) => {
       <SvgLogo color={'black'} />
       <NavLinks styling={'nav-desktop'} />
       <Burger open={props.open} setOpen={props.setOpen} />
-      <CtaButton styling={'cta cta--desktop'} buttonText={'get an invite'} />
+      <CtaButton
+        styling={'cta cta--black cta--desktop'}
+        buttonText={'get an invite'}
+      />
     </nav>
   )
 }

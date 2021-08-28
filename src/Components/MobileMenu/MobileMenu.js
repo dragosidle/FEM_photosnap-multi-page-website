@@ -8,7 +8,10 @@ const MobileMenu = () => {
     <div className='menu'>
       <NavLinks styling={'nav-mobile'} />
       <div className='menu-divider'></div>
-      <CtaButton styling={'cta cta--mobile'} buttonText={'get an invite'} />
+      <CtaButton
+        styling={'cta cta--mobile cta--black'}
+        buttonText={'get an invite'}
+      />
     </div>
   )
 }

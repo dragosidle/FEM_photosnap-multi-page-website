@@ -2,9 +2,7 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  background-color: black;
   padding: 1em 2em;
-  color: white;
   border: none;
   cursor: pointer;
   user-select: none;
@@ -17,6 +15,21 @@
 
 .cta--mobile {
   width: 100%;
+}
+
+.cta--card {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.cta--black {
+  color: white;
+  background-color: black;
+}
+
+.cta--white {
+  color: black;
+  background-color: white;
 }
 
 .cta--mobile:active {
@@ -41,8 +54,8 @@
 }
 
 @media (hover: hover) {
-  .cta--desktop:hover,
-  .cta--mobile:hover {
+  .cta:hover,
+  .cta:hover {
     background-color: #dfdfdf;
     color: black;
   }
