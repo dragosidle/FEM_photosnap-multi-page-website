@@ -9,6 +9,11 @@
   position: relative;
 }
 
+.plan-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .pricing-card--text,
 .pricing-card--price {
   justify-content: center;
@@ -74,12 +79,24 @@
     width: 6px;
   }
 
+  .pricing-card--text {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .pricing-card p {
+    text-align: left;
+  }
+
   .plan-info {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .pricing-card {
     width: 700px;
+    align-items: flex-start;
   }
 }
