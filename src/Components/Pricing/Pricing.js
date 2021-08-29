@@ -5,6 +5,7 @@ import Article from '../Article/Article'
 import SwitchBtn from '../SwitchBtn/SwitchBtn'
 import PricingCard from '../PricingCard/PricingCard'
 import StaticBanner from '../StaticBanner/StaticBanner'
+import Table from '../Table/Table'
 
 // assets
 import hero from '../../assets/pricing/desktop/hero.jpg'
@@ -63,6 +64,10 @@ const Pricing = (props) => {
             btn={'cta cta--card cta--black'}
           />
         </div>
+      </section>
+      <section className='compare-table'>
+        <h1>compare</h1>
+        <Table />
       </section>
       <StaticBanner
         message={'We’re in beta. Get your invite today!'}
