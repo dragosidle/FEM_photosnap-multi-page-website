@@ -41,6 +41,7 @@
 }
 
 .text-side p {
+  font-size: 15px;
   opacity: 60%;
   font-weight: 100;
   line-height: 20px;

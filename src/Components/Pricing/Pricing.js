@@ -4,9 +4,11 @@ import './Pricing.css'
 import Article from '../Article/Article'
 import SwitchBtn from '../SwitchBtn/SwitchBtn'
 import PricingCard from '../PricingCard/PricingCard'
+import StaticBanner from '../StaticBanner/StaticBanner'
 
 // assets
 import hero from '../../assets/pricing/desktop/hero.jpg'
+import background from '../../assets/shared/desktop/bg-beta.jpg'
 
 const Pricing = (props) => {
   return (
@@ -62,6 +64,10 @@ const Pricing = (props) => {
           />
         </div>
       </section>
+      <StaticBanner
+        message={'We’re in beta. Get your invite today!'}
+        background={background}
+      />
     </main>
   )
 }

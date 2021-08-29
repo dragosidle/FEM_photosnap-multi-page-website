@@ -32,6 +32,10 @@
   background-color: white;
 }
 
+.cta--card:active {
+  background-color: #dfdfdf;
+}
+
 .cta--mobile:active {
   background-color: #dfdfdf;
 }
@@ -58,7 +62,6 @@
 }
 
 @media (hover: hover) {
-  .cta:hover,
   .cta:hover {
     background-color: #dfdfdf;
     color: black;

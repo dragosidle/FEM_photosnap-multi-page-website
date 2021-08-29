@@ -32,6 +32,7 @@
 }
 
 .story-preview p {
+  font-size: 15px;
   opacity: 60%;
   line-height: 25px;
   margin: 1rem 0;

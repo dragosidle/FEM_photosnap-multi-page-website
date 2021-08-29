@@ -16,6 +16,10 @@
   width: clamp(100px, 100%, 380px);
 }
 
+.feature p {
+  max-width: 28ch;
+}
+
 .feature-icon {
   width: 72px;
   fill: black;
