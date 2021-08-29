@@ -35,8 +35,8 @@ const Pricing = (props) => {
             details={
               'Includes basic usage of our platform. Recommended for new and aspiring photographers.'
             }
-            price={'$19.00'}
-            billing={'per month'}
+            price={props.monthly ? '$19.00' : '$190.00'}
+            billing={props.monthly ? 'per month' : 'per year'}
             btn={'cta cta--card cta--black'}
           />
           <PricingCard
@@ -46,8 +46,8 @@ const Pricing = (props) => {
             details={
               'More advanced features available. Recommended for photography veterans and professionals.'
             }
-            price={'$39.00'}
-            billing={'per month'}
+            price={props.monthly ? '$39.00' : '$390.00'}
+            billing={props.monthly ? 'per month' : 'per year'}
             btn={'cta cta--card cta--white'}
           />
           <PricingCard
@@ -56,8 +56,8 @@ const Pricing = (props) => {
             details={
               'Additional features available such as more detailed metrics. Recommended for business owners.'
             }
-            price={'$99.00'}
-            billing={'per month'}
+            price={props.monthly ? '$99.00' : '$990.00'}
+            billing={props.monthly ? 'per month' : 'per year'}
             btn={'cta cta--card cta--black'}
           />
         </div>

@@ -1,4 +1,5 @@
 .payment-details {
+  position: relative;
   display: flex;
   padding: 24px;
   flex-direction: column;

@@ -30,9 +30,12 @@
   max-width: 25ch;
   color: black;
 }
-
 .pricing-card h3 {
   font-size: 2rem;
+}
+
+.pricing-card h2 {
+  font-size: 2.5rem;
   width: fit-content;
   letter-spacing: 4px;
   font-weight: 700;
@@ -43,6 +46,7 @@
 }
 
 .basic-card h3,
+.basic-card h2,
 .basic-card p {
   color: black;
 }
@@ -52,6 +56,7 @@
 }
 
 .main-card h3,
+.main-card h2,
 .main-card p {
   color: white;
 }
@@ -82,6 +87,10 @@
   .pricing-card--text {
     justify-content: flex-start;
     align-items: flex-start;
+  }
+
+  .pricing-card--price {
+    align-items: flex-end;
   }
 
   .pricing-card p {

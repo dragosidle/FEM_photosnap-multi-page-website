@@ -13,7 +13,7 @@ const PricingCard = (props) => {
           <p style={{ margin: '1rem 0 0 0' }}>{props.details}</p>
         </div>
         <div className='pricing-card--price'>
-          <h3>{props.price}</h3>
+          <h2>{props.price}</h2>
           <p>{props.billing}</p>
         </div>
       </div>
