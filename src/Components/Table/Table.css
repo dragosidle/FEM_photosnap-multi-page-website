@@ -1,4 +1,30 @@
-table {
-  max-width: 730px;
-  margin: 0 auto;
+#features {
+  font-family: 'DM Sans', sans-serif, Helvetica;
+  border-collapse: collapse;
+  width: clamp(50px, 100%, 750px);
+  margin: 4rem 0;
+}
+
+#features th {
+  padding: 12px;
+  font-weight: 700;
+  text-align: left;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+#features td {
+  font-weight: 700;
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+
+#features th:not(:first-child),
+#features td:not(:first-child) {
+  text-align: center;
+}
+
+.table-check {
+  width: 20px;
+  height: 20px;
 }
