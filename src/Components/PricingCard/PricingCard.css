@@ -3,10 +3,10 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   margin: 0 0 1rem 0;
   position: relative;
+  width: 100%;
 }
 
 .plan-info {
@@ -30,6 +30,7 @@
   max-width: 25ch;
   color: black;
 }
+
 .pricing-card h3 {
   font-size: 2rem;
 }
@@ -43,6 +44,7 @@
 
 .basic-card {
   background-color: #f5f5f5;
+  max-height: 410px;
 }
 
 .basic-card h3,
@@ -76,7 +78,7 @@
   );
 }
 
-@media (min-width: 761px) {
+@media (min-width: 559px) {
   .color-thing-card {
     left: 0;
     top: 0;
@@ -105,7 +107,42 @@
   }
 
   .pricing-card {
-    width: 700px;
     align-items: flex-start;
+  }
+}
+
+@media (min-width: 959px) {
+  .pricing-card--text {
+    justify-content: center;
+    align-items: center;
+  }
+  .plan-info {
+    flex-direction: column;
+  }
+  .pricing-card--price {
+    align-items: center;
+  }
+  .pricing-card {
+    align-items: center;
+  }
+
+  .pricing-card p {
+    text-align: center;
+  }
+
+  .color-thing-card {
+    left: 0;
+    top: 0;
+    height: 6px;
+    width: 100%;
+  }
+
+  .main-card {
+    padding: 4rem 0;
+    margin: 0 1%;
+  }
+  .basic-card {
+    padding: 1rem 0;
+    margin: 0 1%;
   }
 }

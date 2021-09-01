@@ -9,7 +9,11 @@
 }
 
 .pricing-cards {
-  margin: 2rem 0;
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .compare-table {
@@ -23,4 +27,10 @@
 .compare-table h1 {
   text-transform: uppercase;
   font-size: 3rem;
+}
+
+@media (min-width: 959px) {
+  .pricing-cards {
+    flex-direction: row;
+  }
 }

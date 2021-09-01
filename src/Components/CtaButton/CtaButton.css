@@ -55,7 +55,9 @@
   .cta--mobile {
     display: none;
   }
+}
 
+@media (min-width: 559px) {
   .cta--card {
     max-width: 270px;
   }
