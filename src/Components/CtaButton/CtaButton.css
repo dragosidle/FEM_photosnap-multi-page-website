@@ -57,9 +57,14 @@
   }
 }
 
-@media (min-width: 559px) {
+@media (min-width: 521px) {
   .cta--card {
-    max-width: 270px;
+    width: 270px;
+  }
+}
+@media (min-width: 1100px) {
+  .cta--card {
+    width: 100%;
   }
 }
 
