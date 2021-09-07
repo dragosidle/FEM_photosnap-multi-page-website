@@ -9,7 +9,6 @@ import SvgInstagram from '../../iconComponents/Instagram'
 
 // components
 import SvgLogo from '../../iconComponents/Logo'
-import NavLinks from '../NavLinks/NavLinks'
 import ArrowBtn from '../ArrowBtn/ArrowBtn'
 
 const Footer = () => {
@@ -35,7 +34,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <NavLinks footer={true} styling={'footer-desktop'} />
       <div className='footer-split-2'>
         <ArrowBtn
           btnType={'arrow-btn'}

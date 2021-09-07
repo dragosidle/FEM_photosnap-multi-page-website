@@ -11,6 +11,28 @@
   user-select: none;
 }
 
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-link {
+  color: black;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.mobile-link li {
+  font-size: 16px;
+  font-weight: bold;
+  list-style: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 .menu--enter {
   opacity: 0;
   top: -250px;
@@ -44,6 +66,12 @@
   width: 100%;
   background-color: black;
   opacity: 25%;
+}
+
+@media (hover: hover) {
+  .mobile-link li:hover {
+    opacity: 30%;
+  }
 }
 
 @media (min-width: 761px) {

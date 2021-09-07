@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { CSSTransition } from 'react-transition-group'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import './App.css'
 // components
@@ -21,21 +22,27 @@ function App() {
         in={open}
         timeout={500}
         unmountOnExit={true}
-        classNames={'menu-'}>
-        <MobileMenu />
-      </CSSTransition>
-      <Navbar open={open} setOpen={setOpen} />
-      <CSSTransition
-        in={open}
-        timeout={500}
-        unmountOnExit={true}
         classNames={'overlay-'}>
         <div className='overlay'></div>
       </CSSTransition>
-      <Home />
-      <Stories />
-      <Features />
-      <Pricing monthly={monthly} setMonthly={setMonthly} />
+      <Router>
+        <CSSTransition
+          in={open}
+          timeout={500}
+          unmountOnExit={true}
+          classNames={'menu-'}>
+          <MobileMenu open={open} setOpen={setOpen} />
+        </CSSTransition>
+        <Navbar switch={Switch} open={open} setOpen={setOpen} />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/stories' component={Stories} />
+          <Route path='/features' component={Features} />
+          <Route path='/pricing'>
+            <Pricing monthly={monthly} setMonthly={setMonthly} />
+          </Route>
+        </Switch>
+      </Router>
       <Footer />
     </div>
   )

@@ -15,9 +15,16 @@ nav {
   /* box-shadow: 0 0 25px rgba(136, 136, 136, 0.274); */
 }
 
+.desktop-links {
+  display: none;
+}
+
 @media (min-width: 761px) {
   nav {
     justify-content: space-around;
+  }
+  .desktop-links {
+    display: flex;
   }
   .hamburger {
     display: none;
@@ -25,7 +32,19 @@ nav {
 }
 
 @media (hover: hover) {
-  ul li:hover {
+  .link:hover {
     opacity: 30%;
   }
+}
+
+.desktop-link {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+  margin: 1rem;
 }
