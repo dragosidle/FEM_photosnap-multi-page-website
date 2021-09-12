@@ -34,14 +34,12 @@ function App() {
           <MobileMenu open={open} setOpen={setOpen} />
         </CSSTransition>
         <Navbar switch={Switch} open={open} setOpen={setOpen} />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/stories' component={Stories} />
-          <Route path='/features' component={Features} />
-          <Route path='/pricing'>
-            <Pricing monthly={monthly} setMonthly={setMonthly} />
-          </Route>
-        </Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/stories' component={Stories} />
+        <Route path='/features' component={Features} />
+        <Route path='/pricing'>
+          <Pricing monthly={monthly} setMonthly={setMonthly} />
+        </Route>
         <Footer />
       </Router>
     </div>
