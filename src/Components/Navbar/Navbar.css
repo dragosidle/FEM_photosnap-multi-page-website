@@ -47,4 +47,5 @@ nav {
   user-select: none;
   text-decoration: none;
   margin: 1rem;
+  width: fit-content;
 }
