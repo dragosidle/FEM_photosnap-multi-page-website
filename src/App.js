@@ -42,8 +42,8 @@ function App() {
             <Pricing monthly={monthly} setMonthly={setMonthly} />
           </Route>
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 // assets
 import SvgFacebook from '../../iconComponents/Facebook'
@@ -14,8 +15,10 @@ import ArrowBtn from '../ArrowBtn/ArrowBtn'
 const Footer = () => {
   return (
     <section className='footer'>
-      <div className='footer-split'>
-        <SvgLogo color={'white'} />
+      <div className='footer-top'>
+        <Link className='desktop-link' to='/'>
+          <SvgLogo color={'white'} />
+        </Link>
         <div className='socials'>
           <div className='social-icon'>
             <SvgFacebook />
@@ -34,7 +37,21 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='footer-split-2'>
+      <ul className='footer-links'>
+        <Link className='desktop-link' to='/'>
+          <li>Home</li>
+        </Link>
+        <Link className='desktop-link' to='/stories'>
+          <li>Stories</li>
+        </Link>
+        <Link className='desktop-link' to='/features'>
+          <li>Features</li>
+        </Link>
+        <Link className='desktop-link' to='/pricing'>
+          <li>Pricing</li>
+        </Link>
+      </ul>
+      <div className='footer-bottom'>
         <ArrowBtn
           btnType={'arrow-btn'}
           btn={'get an invite'}
