@@ -9,7 +9,7 @@ import Burger from '../Burger/Burger'
 const Navbar = (props) => {
   return (
     <nav>
-      <Link to='/'>
+      <Link className='desktop-link' to='/'>
         <SvgLogo color={'black'} />
       </Link>
       <ul className='desktop-links'>

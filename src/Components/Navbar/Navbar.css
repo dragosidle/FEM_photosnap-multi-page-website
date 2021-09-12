@@ -33,7 +33,7 @@ nav {
 
 @media (hover: hover) {
   .desktop-link:hover {
-    opacity: 30%;
+    opacity: 75%;
   }
 }
 
