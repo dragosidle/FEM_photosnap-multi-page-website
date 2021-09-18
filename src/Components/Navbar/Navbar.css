@@ -25,6 +25,8 @@ nav {
   }
   .desktop-links {
     display: flex;
+    width: 30%;
+    justify-content: space-around;
   }
   .hamburger {
     display: none;
@@ -46,6 +48,6 @@ nav {
   cursor: pointer;
   user-select: none;
   text-decoration: none;
-  margin: 1rem;
+  margin: 0.5rem;
   width: fit-content;
 }
