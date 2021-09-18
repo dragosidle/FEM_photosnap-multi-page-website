@@ -17,11 +17,11 @@
 }
 
 .overlay--enter-active {
-  opacity: 50%;
+  opacity: 0.5;
   transition: opacity 200ms ease-in-out;
 }
 .overlay--enter-done {
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .overlay--exit {
