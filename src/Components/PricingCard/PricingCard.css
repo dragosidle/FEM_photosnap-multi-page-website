@@ -33,7 +33,7 @@
 
 .pricing-card p {
   font-size: 16px;
-  opacity: 60%;
+  opacity: 0.6;
   text-align: center;
   width: clamp(10ch, 100%, 23ch);
   color: black;
