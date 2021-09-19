@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Frontend Mentor - Photosnap Website solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Photosnap Website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/photosnap-multipage-website-nMDSrNmNW). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  <!-- - [What I learned](#what-i-learned) -->
+  - [Continued development](#continued-development)
+  <!-- - [Useful resources](#useful-resources) -->
+- [Author](#author)
+<!-- - [Acknowledgments](#acknowledgments) -->
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### The challenge
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Users should be able to:
 
-### `npm test`
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements throughout the site
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![](./preview.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-### `npm run eject`
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.** -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Links
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Solution URL: [Github](https://github.com/ospop/FEM_photosnap-multi-page-website)
+- Live Site URL: [Demo](https://photosnap-ospop.vercel.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## My process
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Built with
 
-## Learn More
+<!-- - Semantic HTML5 markup -->
+<!-- - CSS custom properties -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://reactjs.org/) - JS library
+- Flexbox
+- Mobile-first workflow
+- React Transition Group
+  <!-- - [Next.js](https://nextjs.org/) - React framework -->
+  <!-- - [Styled Components](https://styled-components.com/) - For styles -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- **Note: These are just examples. Delete this note and replace the list above with your own choices** -->
 
-### Code Splitting
+<!-- ### What I learned -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
 
-### Analyzing the Bundle Size
+<!-- To see how you can add code snippets, see below: -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Continued development
 
-### Making a Progressive Web App
+Grids haunt me as I never make use of them in any project and this one seemed to be suitable for them. I always end up using flexbox, it's something about it that makes it more fun to write, instead of defining a `grid-area` I prefer to have multiple nested flexbox items.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Portfolio](https://vertices.vercel.app/)
+- Frontend Mentor - [@ospop](https://www.frontendmentor.io/profile/ospop)
+<!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
