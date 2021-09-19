@@ -42,7 +42,7 @@
 
 .text-side p {
   font-size: 15px;
-  opacity: .6;
+  opacity: 0.75;
   font-weight: 100;
   line-height: 20px;
   max-width: 40ch;
@@ -72,6 +72,7 @@
 
   .text-side {
     min-width: 500px;
+    padding: 10rem 6%;
   }
 
   .text-side p {
