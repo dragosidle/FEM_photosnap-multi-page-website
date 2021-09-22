@@ -38,16 +38,36 @@ const Footer = () => {
         </div>
       </div>
       <ul className='footer-links'>
-        <Link className='desktop-link' to='/'>
+        <Link
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }}
+          className='desktop-link'
+          to='/'>
           <li>Home</li>
         </Link>
-        <Link className='desktop-link' to='/stories'>
+        <Link
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }}
+          className='desktop-link'
+          to='/stories'>
           <li>Stories</li>
         </Link>
-        <Link className='desktop-link' to='/features'>
+        <Link
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }}
+          className='desktop-link'
+          to='/features'>
           <li>Features</li>
         </Link>
-        <Link className='desktop-link' to='/pricing'>
+        <Link
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }}
+          className='desktop-link'
+          to='/pricing'>
           <li>Pricing</li>
         </Link>
       </ul>
