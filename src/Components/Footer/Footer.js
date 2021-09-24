@@ -16,7 +16,12 @@ const Footer = () => {
   return (
     <section className='footer'>
       <div className='footer-top'>
-        <Link className='desktop-link' to='/'>
+        <Link
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' })
+          }}
+          className='desktop-link'
+          to='/'>
           <SvgLogo color={'white'} />
         </Link>
         <div className='socials'>
